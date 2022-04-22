@@ -1,0 +1,59 @@
+#footer {
+  font-size: 1.2rem;
+  padding: 40px 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 2rem;
+  color: #fff;
+  background: #0c0b09;
+  border-top: 1px solid #37332a;
+  border-bottom: 1px solid #28251f;
+}
+
+.social {
+  margin: 10px;
+  width: 30px;
+  height: auto;
+}
+
+article ul li {
+  padding-left: 0;
+  margin: 7px 0px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+.footer-link:hover {
+  color: #d9ba85;
+}
+
+.news-form {
+  margin-top: 20px;
+  position: relative;
+}
+
+.news-form input {
+  width: 75%;
+  background-color: #37332a;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  font-size: inherit;
+}
+
+
+.news-form button {
+  position: absolute;
+  right: calc(25% - 30px);
+  font-size: inherit;
+  padding: 10px 18px;
+  border-radius: 25px;
+  background-color: #d4972d;
+  border: none;
+  color: #fff;
+}

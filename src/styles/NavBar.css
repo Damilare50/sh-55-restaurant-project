@@ -1,4 +1,6 @@
 .navbar {
+  position: sticky;
+  top: 0;
   display: flex;
   background-color: rgba(12, 11, 9, 0.6);
   color: white;
@@ -7,7 +9,6 @@
 }
 
 .nav-links {
-  position: sticky;
   display: flex;
   flex-direction: row;
   list-style: none;

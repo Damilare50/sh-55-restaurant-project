@@ -16,11 +16,11 @@ const Address = () => {
           <h4>Email: info@group55.com</h4>
         </section>
         <section>
-          <FaTwitter className='social' />
-          <FaFacebookF className='social' />
-          <FaInstagram className='social' />
-          <FaSkype className='social' />
-          <FaLinkedinIn className='social' />
+          <FaTwitter className='icon' />
+          <FaFacebookF className='icon' />
+          <FaInstagram className='icon' />
+          <FaSkype className='icon' />
+          <FaLinkedinIn className='icon' />
         </section>
       </article>
     </>

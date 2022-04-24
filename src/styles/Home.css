@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+}
+
+.intro {
+    background: #262525;
+}
+
+.voluptanem {
+    width: 90%;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 50% 45%;
+    gap: 5%;
+}
+
+.header {
+    padding-top: 1rem;
+}
+
+.header h2 {
+    color: #fff;
+}
+
+.voluptanem p,
+.voluptanem span {
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    color: #fff;
+}
+
+.check {
+    color: #ffc000;
+}
+
+.follow-text {
+    padding: 1.5rem 0;
+}
+
+.follow-text p {
+    line-height: normal;
+}
+
+.image-div {
+    height: 100%;
+    margin: auto;
+    padding-top: 0;
+}
+
+.image-div img {
+    width: 110%;
+    transition: all 280ms ease-out 50ms;
+}
+
+
+.image-div img:hover {
+    transform: scale(1.04);
+}
+
+/*MENU SECTION*/
+.menu {
+    padding-top: 5rem;
+    background: #000;
+}
+
+.menu * {
+    color: #fff;
+}
+
+.menu-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.menu-header {
+    padding-bottom: 4rem;
+}
+
+.menu p {
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.menu h1 {
+    font-size: 2rem;
+    color: #ffc000;
+    padding: 0.4rem 0;
+}
+
+.menu-header hr {
+    transform: translate(5rem, -1rem);
+    width: 15%;
+    background: #333;
+}
+
+.menu-body {
+    width: 100%;
+    margin: 0 auto;
+    padding: 4rem 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 2.5%;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /*justify-content: space-between;*/
+}
+
+.menu-image {
+    width: 10%;
+    padding: 0 2rem 2rem 0;
+}
+
+.menu-image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.menu-image.cake {
+    width: 12%;
+}
+
+h3.main-text {
+    padding: 0.35rem 0;
+}
+
+span.price {
+    color: #ffc000;
+}
+
+p.sub-text {
+    color: #888;
+}

@@ -50,6 +50,7 @@ const Address = () => {
 const Contact = () => {
   return (
     <>
+      <h1 id="contact-header">Contact Us</h1>
       <article className='form-address'>
         <Address />
         <Form />

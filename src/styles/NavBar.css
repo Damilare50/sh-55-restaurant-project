@@ -2,6 +2,7 @@
   position: sticky;
   top: 0;
   display: flex;
+  flex-direction: column;
   background-color: rgba(12, 11, 9, 0.6);
   color: white;
   padding: 0 60px;
@@ -9,8 +10,8 @@
 }
 
 .nav-links {
-  display: flex;
-  flex-direction: row;
+  background: transparent;
+  flex-direction: column;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -34,4 +35,28 @@
 
 .logo-img {
   width: 100px;
+}
+
+.menu-icon {
+  display: block;
+  float: right;
+  cursor: pointer;
+  border: none;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.display-none {
+  display: none;
+}
+
+
+@media screen and (max-width: 520px) {
+  .navbar {
+    padding: 0;
+  }
 }

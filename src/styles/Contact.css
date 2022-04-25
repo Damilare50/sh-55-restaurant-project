@@ -1,3 +1,10 @@
+#contact-header {
+  font-size: 2.5rem;
+  color: white;
+  background: #0c0b09;
+  padding: 40px 60px 0px 60px;
+}
+
 .form-address {
   padding: 40px 60px;
   display: grid;
@@ -65,5 +72,8 @@
   .form-address {
     display: flex;
     flex-direction: column;
+  }
+  .form-button {
+    width: max-content;
   }
 }

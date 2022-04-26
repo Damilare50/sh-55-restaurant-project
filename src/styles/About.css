@@ -1,1 +1,40 @@
-/* No CSS *//*# sourceMappingURL=About.css.map */
+.About-body {
+  background-image: linear-gradient(to right, #000000d0, #434343de),
+    url(../images/About-bg.jpg);
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  height: 80vh;
+  padding: 60px;
+  font-size: 20px;
+}
+
+.about-text h2 {
+  margin-bottom: 10px;
+}
+
+.image-container {
+  width: 6000px;
+  height: 400px;
+  border: 5px solid #6c757d80;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.image-container .About-image {
+  max-width: 100%;
+  width: 700px;
+  height: 500px;
+}
+
+@media (max-width: 800px) {
+  .About-body {
+    flex-direction: column;
+  }
+
+  .image-container .About-image {
+    max-width: 100%;
+    width: 500px;
+    height: 500px;
+  }
+}

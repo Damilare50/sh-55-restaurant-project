@@ -1,0 +1,116 @@
+/* start of menu section */
+.menu-header {
+  font-size: 2.5rem;
+  color: white;
+  background: #0c0b09;
+  padding: 40px 60px;
+}
+
+.menu-container {
+  padding: 40px 80px;
+  width: inherit;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  background: #37332a;;
+  color: white;
+}
+
+.menu-item {
+  display: flex;
+  margin: 10px 0;
+}
+
+.menu-item h3 {
+  margin: 10px 0;
+}
+
+.menu-item p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.menu-item img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  align-self: center;
+  margin: 20px 20px 20px 0;
+}
+
+@media screen and (max-width: 550px) {
+  .menu-container {
+    padding: 40px 60px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .menu-container {
+    padding: 10px 20px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .menu-container {
+    padding: 10px 10px;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+}
+
+/* End of menu section */
+/* start of reservation table section */
+
+.reservation-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 10px;
+}
+
+.reserve-input-text {
+  font-size: 1.2rem;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: thin ridge;
+  border-radius: 5px;
+  color: white;
+  background-color: inherit;
+  transition: 0.5s;
+}
+
+.reserve-input-textarea {
+  font-size: 1.2rem;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: thin ridge;
+  border-radius: 5px;
+  color: white;
+  background-color: #0c0b09;
+  transition: 0.5s;
+  width: calc(100% - 30px);
+}
+
+.reserve-input-text:focus, .reserve-input-textarea:focus {
+  background-color: #37332a;
+}
+
+form {
+  background: #0c0b09;
+  padding: 40px 60px;
+}
+
+.reserve-button {
+  width: 150px;
+  font-size: 1.2rem;
+  padding: 10px 18px;
+  border-radius: 25px;
+  background-color: #d4972d;
+  border: none;
+  color: #fff;
+  display: block;
+  margin: auto;
+}
+
+.input-text:focus {
+  background-color: #37332a;
+}

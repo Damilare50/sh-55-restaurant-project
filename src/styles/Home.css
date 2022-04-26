@@ -20,33 +20,6 @@ html {
   height: 100%;
 }
 
-body .pre-header {
-  display: -ms-grid;
-  display: grid;
-  width: 500px;
-  -ms-grid-columns: auto 1fr;
-      grid-template-columns: auto 1fr;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 10px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 20px;
-}
-
-body .pre-header p {
-  text-transform: uppercase;
-  color: #6e6e6e;
-}
-
-body .pre-header div {
-  height: 1px;
-  width: 200px;
-  background-color: #6e6e6e;
-}
-
 body .home {
   width: 100%;
   color: #fff;
@@ -61,6 +34,10 @@ body .home .same-position {
 
 body .home .toplayer {
   z-index: 30;
+}
+
+.hero-section .hs-welcometext .buttons .link {
+  color: white;
 }
 
 body .home .hero-section {

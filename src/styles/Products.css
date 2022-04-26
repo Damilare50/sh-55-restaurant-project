@@ -44,20 +44,6 @@
   }
 }
 
-@media screen and (max-width: 450px) {
-  .menu-container {
-    padding: 10px 20px;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  }
-}
-
-@media screen and (max-width: 350px) {
-  .menu-container {
-    padding: 10px 10px;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  }
-}
-
 /* End of menu section */
 /* start of reservation table section */
 
@@ -87,7 +73,7 @@
   color: white;
   background-color: #0c0b09;
   transition: 0.5s;
-  width: calc(100% - 30px);
+  width: 100%;
 }
 
 .reserve-input-text:focus, .reserve-input-textarea:focus {
@@ -113,4 +99,28 @@ form {
 
 .input-text:focus {
   background-color: #37332a;
+}
+
+@media screen and (max-width: 450px) {
+  .menu-container {
+    padding: 10px 20px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+
+  form {
+    padding: 20px 10px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .menu-container {
+    padding: 10px 10px;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+  .reservation-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .menu-header {
+    padding: 20px;
+  }
 }

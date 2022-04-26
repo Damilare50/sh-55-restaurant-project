@@ -1,8 +1,6 @@
 import React from "react";
-// import Chefs from "./Chefs";
-// import ContactUs from "./ContactUs";
 import HeroSection from "./HeroSection";
-// import WhyChooseUs from "./WhyChooseUs";
+import '../styles/Home.css'
 
 const Home = () => {
   return (

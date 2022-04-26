@@ -8,14 +8,14 @@
 .form-address {
   padding: 40px 60px;
   display: grid;
-  grid-template-columns: 300px auto;
+  grid-template-columns: 300px minmax(500px, 1fr);
   background: #0c0b09;
   color: white;
 }
 
 #address-sections {
   display: flex;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 #address-sections p {
@@ -29,7 +29,7 @@
   background: #d4972d;
   border-radius: 50px;
   align-self: center;
-  margin: 20px 20px 20px 0;
+  margin: 0px 20px 20px 0;
 }
 /* #37332a */
 .input-text {
@@ -50,15 +50,16 @@
 }
 .form {
   width: 75%;
+  padding: 0;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   color: white;
   text-align: center;
 }
 
 .form-button {
-  width: 25%;
+  width: 150px;
   font-size: 1.2rem;
   padding: 10px 18px;
   border-radius: 25px;
@@ -74,6 +75,11 @@
     flex-direction: column;
   }
   .form-button {
-    width: max-content;
+    width: 120px;
+  }
+  .form {
+    padding: 0;
+    margin: 0;
+    width: 100%;
   }
 }

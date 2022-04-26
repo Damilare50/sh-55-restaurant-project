@@ -52,7 +52,7 @@ const NavBar = () => {
 
   const toggleNav = () => {
     setIsOpen((prev) => !prev);
-    console.log(isOpen);
+    //console.log(isOpen);
   };
 
   return (

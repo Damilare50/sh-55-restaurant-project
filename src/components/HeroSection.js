@@ -1,5 +1,6 @@
 import React from "react";
 import RestaurantHero from "../images/Hero-image.jpg";
+import { Link } from 'react-router-dom';
 
 function HeroSection() {
   return (
@@ -14,7 +15,7 @@ function HeroSection() {
         </h1>
         <p>Delivering great food for more than 18 years</p>
         <div className="buttons">
-          <button>Our Menu</button>
+          <Link to="/products" className="link"><button>Our Menu</button></Link>
           <button>Book a Table</button>
         </div>
       </div>

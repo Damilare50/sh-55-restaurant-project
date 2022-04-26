@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   text-decoration: none;
   outline: none;
 }
@@ -45,7 +45,7 @@ body .home .hero-section {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
   height: 700px;
   position: relative;
 }
@@ -84,20 +84,20 @@ body .home .chefs .chefs-body div {
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     text-align: center;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
     -webkit-column-gap: 20px;
-            column-gap: 20px;
+    column-gap: 20px;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .hero-section .hs-welcometext h1 {
     -ms-grid-column: 1;
@@ -148,7 +148,7 @@ body .home .chefs .chefs-body div {
   }
   .hero-section .hs-image {
     -webkit-transform: translate(-50%, 0%);
-            transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
     left: -50%;
     width: 250%;
   }
@@ -159,20 +159,20 @@ body .home .chefs .chefs-body div {
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     text-align: center;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
     -webkit-column-gap: 20px;
-            column-gap: 20px;
+    column-gap: 20px;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .hero-section .hs-welcometext h1 {
     -ms-grid-column: 1;
@@ -217,4 +217,3 @@ body .home .chefs .chefs-body div {
     padding: 50px 20px;
   }
 }
-/*# sourceMappingURL=Home.css.map */

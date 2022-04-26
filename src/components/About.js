@@ -1,5 +1,5 @@
 import about from "../images/about.jpg";
-
+import "../styles/About.css";
 const About = () => {
   return (
     <section className="About-body">

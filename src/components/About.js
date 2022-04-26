@@ -1,4 +1,3 @@
-import "../Images/about.jpg";
 import about from "../images/about.jpg";
 
 const About = () => {

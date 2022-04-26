@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Products from "./components/Products";
+import "./styles/Home.css";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <Footer />
     </BrowserRouter>
   );
-}
+};
 
 export default App;
+

@@ -5,9 +5,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Home from "./components/Home";
+import Home from "./components/Homepage/Home";
 import NavBar from "./components/NavBar";
 import Products from "./components/Products";
+import "./styles/Home.css";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <Footer />
     </BrowserRouter>
   );
-}
+};
 
 export default App;
+

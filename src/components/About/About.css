@@ -1,0 +1,112 @@
+.why-choose-us {
+  margin: 50px 0 0 0;
+}
+
+.why-choose-us .wcu-body {
+  padding: 10px 0 0 0;
+}
+
+.why-choose-us .wcu-body .wcu-reasons {
+  background-color: #241907;
+  padding: 50px;
+  margin: 20px 0px;
+}
+
+.why-choose-us .wcu-body .wcu-reasons p {
+  line-height: 2;
+}
+
+.why-choose-us .wcu-body .wcu-reasons .wcur-number {
+  font-weight: bold;
+  color: #d8ab5b;
+}
+
+.why-choose-us .wcu-body .wcu-reasons .wcur-head {
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.why-choose-us .wcu-body .wcu-reasons .wcur-paragraph {
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+.chefs .chefs-body {
+  margin: 50px 0 0 0;
+  display: -ms-grid;
+  display: grid;
+  gap: 20px;
+  position: relative;
+}
+
+.chefs .chefs-body .imgone img {
+  width: 120%;
+}
+
+.chefs .chefs-body div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  overflow: hidden;
+  overflow: hidden;
+}
+
+.chefs .chefs-body div img {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  grid-row: 1/4;
+}
+
+.chefs .chefs-body div .overlay {
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  margin-top: 300px;
+  padding: 20px;
+}
+
+.chefs .chefs-body div .overlay .chef-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.chefs .chefs-body div .overlay .chef-position {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+@media only screen and (min-width: 600px) {
+  .chefs .chefs-body {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    -ms-grid-rows: 400px;
+        grid-template-rows: 400px;
+  }
+  .chefs .chefs-body div {
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .chefs .chefs-body {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 500px 500px 500px;
+        grid-template-rows: 500px 500px 500px;
+  }
+  .chefs .chefs-body div .overlay {
+    position: relative;
+  }
+}
+/*# sourceMappingURL=About.css.map */

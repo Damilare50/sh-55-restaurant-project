@@ -20,11 +20,6 @@ html {
   height: 100%;
 }
 
-body {
-  background-color: #000;
-  color: white;
-}
-
 body .pre-header {
   display: -ms-grid;
   display: grid;
@@ -54,6 +49,7 @@ body .pre-header div {
 
 body .home {
   width: 100%;
+  color: #fff;
 }
 
 body .home .same-position {

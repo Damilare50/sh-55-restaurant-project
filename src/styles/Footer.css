@@ -1,5 +1,5 @@
 #footer {
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   padding: 40px 60px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -8,6 +8,10 @@
   background: #0c0b09;
   border-top: 1px solid #37332a;
   border-bottom: 1px solid #28251f;
+}
+
+.footer-details section, .footer-newsletter p {
+  margin: 10px 0;
 }
 
 .icon {

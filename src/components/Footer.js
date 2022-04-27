@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Address = () => {
   return (
     <>
-      <article>
+      <article className='footer-details'>
         <h2>FOODIELAND</h2>
         <section>
           <h4>13, Macaulay Way, <br/>LG, 200142, NGA</h4>
@@ -45,7 +45,7 @@ const UsefulLinks = () => {
 const Newsletter = () => {
   return (
     <>
-      <article>
+      <article className='footer-newsletter'>
         <h2>Our Newsletter</h2>
         <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
         <section className='news-form'>
@@ -61,7 +61,6 @@ const Footer = () => {
   return (
     <footer id='footer'>
       <Address />
-      <UsefulLinks />
       <UsefulLinks />
       <Newsletter />
     </footer>

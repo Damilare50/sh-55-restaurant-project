@@ -121,4 +121,7 @@
   .card-container {
     padding: 20px 0;
   }
+  .card {
+    padding: 20px;
+  }
 }

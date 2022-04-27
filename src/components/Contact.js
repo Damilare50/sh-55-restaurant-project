@@ -40,7 +40,7 @@ const Address = () => {
   return (
     <article>
       <AddressSection icon={<FaMapMarkerAlt className='icon' />} header="Location:" details="13, Macaulay Way, LG, 200142, NGA" />
-      <AddressSection icon={<FaClock className='icon' />} header="Open Hours:" details="Monday-Saturday:">11:00 AM - 2300 PM</AddressSection>
+      <AddressSection icon={<FaClock className='icon' />} header="Open Hours:" details="Monday-Saturday:">9:00 AM - 11:00 PM</AddressSection>
       <AddressSection icon={<FaRegEnvelope className='icon' />} header="Email:" details="info@group55.com" />
       <AddressSection icon={<FaMobile className='icon' />} header="Call:" details="+234 901 234 4567" />
     </article>

@@ -46,7 +46,7 @@ body .home .hero-section {
   display: grid;
   -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
-  height: 700px;
+  /* height: 700px; */
   position: relative;
 }
 

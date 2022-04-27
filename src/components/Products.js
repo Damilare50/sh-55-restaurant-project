@@ -114,7 +114,7 @@ const Products = () => {
               name="time"
               id="time"
               placeholder="Time"
-              type="datetime"
+              type="time"
             />
             <FormInput
               name="guestCount"

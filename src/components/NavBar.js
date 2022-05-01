@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "../styles/NavBar.css";
 import RestaurantLogo from "../images/restaurant-logo.png";
 import { FaBars } from "react-icons/fa";
@@ -16,11 +16,12 @@ const Logo = ({ logoImg, toggleNav }) => {
   );
 };
 
-const Navlink = ({ isOpen }) => {
+const Navlink = ({ isOpen, closeNav }) => {
   return (
     <>
       <ul
-        className={isOpen ? "nav-links display-flex" : "nav-links display-none"}
+        className={isOpen ? "nav-links responsive" : "nav-links"}
+        onClick={closeNav}
       >
         <li>
           <Link to="/" className="link">
@@ -48,18 +49,21 @@ const Navlink = ({ isOpen }) => {
 };
 
 const NavBar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isNavOpen, setIsNavOpen] = useState(false);
 
   const toggleNav = () => {
-    setIsOpen((prev) => !prev);
-    //console.log(isOpen);
+    setIsNavOpen((prev) => !prev);
   };
+
+  const closeNav = () => {
+    setIsNavOpen(false);
+  }
 
   return (
     <>
       <nav className="navbar">
         <Logo logoImg={RestaurantLogo} toggleNav={toggleNav} />
-        <Navlink isOpen={isOpen} />
+        <Navlink isOpen={isNavOpen} closeNav={closeNav} />
       </nav>
     </>
   );
